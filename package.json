@@ -2,9 +2,14 @@
   "name": "react-flux-todos",
   "version": "0.0.1",
   "description": "A simple Todos app using React and Flux",
-  "main": "js/app.js",
+  "main": "main.js",
+  "author": "Ben Grunfeld",
+  "repository": "https://github.com/bengrunfeld/react-flux-todos",
   "dependencies": {
-    "react": "~0.11"
+    "flux": "^2.0.0",
+    "keymirror": "~0.1.0",
+    "object-assign": "^1.0.0",
+    "react": "^0.12.0"
   },
   "devDependencies": {
     "browserify": "~4.2.2",
@@ -21,7 +26,6 @@
     "collect-static": "collect-static . ./static",
     "test": "jest"
   },
-  "author": "Ben Grunfeld",
   "browserify": {
     "transform": [
       "reactify",
